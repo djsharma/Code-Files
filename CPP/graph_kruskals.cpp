@@ -81,6 +81,7 @@ n=n+1;  // graph vertices numbering starts from 1
 cin>>m;
 int temp;
 temp=n;
+
 while(temp--)
 {
 Graph.push_back(row);
@@ -89,6 +90,7 @@ Graph.push_back(row);
 
 temp=m;
 int u,v,weight;
+
 while(temp--)
 {
 cin>>u>>v>>weight;
